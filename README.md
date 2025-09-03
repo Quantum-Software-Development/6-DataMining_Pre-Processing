@@ -86,9 +86,57 @@ https://github.com/user-attachments/assets/4ccd316b-74a1-4bae-9bc7-1c705be80498
 >
 >
 
-
-
 <!-- =======================================END DEFAULT HEADER ===========================================  -->
+
+<br><br>
+
+
+Explore datasets from the [**University of California Irvine (UCI) Machine Learning Repository :**](https://archive.ics.uci.edu/ml/index.php) such as the **Balloon**, **Bank Marketing**, and **Mammogram** datasets to practice these concepts of data pre-processing and mining.
+
+<br><br>
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Common Problems in Raw Data](#common-problems-in-raw-data)
+  - [Incompleteness](#incompleteness)
+  - [Inconsistency](#inconsistency)
+  - [Noise](#noise)
+- [Garbage In, Garbage Out (GIGO)](#garbage-in-garbage-out-gigo)
+- [Types of Data](#types-of-data)
+  - Structured, Semi-Structured, Unstructured
+- [Data Attributes and Their Types](#data-attributes-and-their-types)
+- [Datasets from University of California - Irvine (UCI)](#datasets-from-university-of-california---irvine-uci)
+  - Balloon Dataset
+  - Bank Marketing Dataset
+  - Mammographic Mass Dataset
+- [Steps of Data Pre-Processing](#steps-of-data-pre-processing)
+  - Cleaning
+  - Integration
+  - Reduction
+  - Transformation
+  - Discretization
+- [Data Cleaning Techniques](#data-cleaning-techniques)
+  - Handling Missing Values
+  - Noise Reduction Techniques
+  - Handling Inconsistencies
+- [Data Integration Issues](#data-integration-issues)
+- [Data Reduction Techniques](#data-reduction-techniques)
+- [Data Standardization & Normalization](#data-standardization--normalization)
+- [Discretization](#discretization)
+- [Python Code Examples](#python-code-examples)
+- [ASCII Diagrams](#ascii-diagrams)
+
+
+
+<br><br>
+
+
+=====================================================  Still shaping this repo ✌️ ===================================================== 
+
+
+
+
 
 
 
