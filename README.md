@@ -128,13 +128,35 @@ Explore datasets from the [**University of California Irvine (UCI) Machine Learn
 - [ASCII Diagrams](#ascii-diagrams)
 
 
-
 <br><br>
 
 
-=====================================================  Still shaping this repo ✌️ ===================================================== 
+## Introduction
+
+Real-world data are almost always incomplete, inconsistent, and noisy. These problems must be addressed via pre-processing to ensure clean, reliable data, a prerequisite for successful data mining.
+
+The **pre-processing** step manipulates raw data into a form that enables better and more accurate knowledge extraction.
+
+---
+
+## Common Problems in Raw Data
+
+### Incompleteness
+
+Missing attribute values, records, or features.
+
+Example: "?" in the credit card field or missing rows.
+
+### Inconsistency
+
+Contradictory or conflicting entries within the data, e.g., units mixing kg with lbs.
+
+### Noise
+
+Random variations or errors that obscure real data trends.
 
 
+<br>
 
 
 
