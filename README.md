@@ -161,8 +161,41 @@ Random variations or errors that obscure real data trends.
 <br>
 
 
+## Garbage In, Garbage Out (GIGO)
+
+Poor quality input data produce poor quality outputs and insights. Cleaning data beforehand is critical.
+
+<br><br>
+
+## Types of Data
+
+<br>
+
+| Type            | Description                             | Examples                 |
+|-----------------|---------------------------------------|--------------------------|
+| Structured      | Fixed fields, clear schema             | CSV, SQL tables          |
+| Semi-Structured | Partial structure with markers         | XML, JSON, Emails        |
+| Unstructured    | No strict structure or schema          | Text, images, video files|
 
 
+
+<br><br>
+
+
+## Data Attributes and Their Types
+
+<br>
+
+| Attribute Type | Description                             | Example                     |
+|----------------|---------------------------------------|-----------------------------|
+| Binary         | Two possible values                    | Yes/No, 0/1                  |
+| Nominal        | Categorical, no order                  | Marital Status               |
+| Ordinal        | Ordered categories                    | Education Level              |
+| Ratio          | Numeric with meaningful zero          | Age, Salary                  |
+
+
+
+<br><br>
 
 
 
