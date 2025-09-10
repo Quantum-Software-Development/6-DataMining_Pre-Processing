@@ -137,7 +137,9 @@ Real-world data are almost always incomplete, inconsistent, and noisy. These pro
 
 The **pre-processing** step manipulates raw data into a form that enables better and more accurate knowledge extraction.
 
----
+
+<br>
+
 
 ## Common Problems in Raw Data
 
