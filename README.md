@@ -533,7 +533,7 @@ from sklearn.preprocessing import minmax_scale, scale
 
 <br>
 
-### 2. Load Dataset]()
+### 2.  [Load Dataset]()
 
 <br>
 
@@ -553,7 +553,7 @@ dados.head()
 
 <br>
 
-## 3. Inspect Columns and Data Types]()
+## 3.  [Inspect Columns and Data Types]()
 
 <br>
 
@@ -572,7 +572,7 @@ print("Unnamed columns:", unnamed_cols)
 <br>
 
 
-## 4. Drop Unnamed Columns]()
+## 4.  [Drop Unnamed Columns]()
 
 <br>
 
@@ -585,7 +585,7 @@ print("Columns after dropping unnamed ones:", dados.columns)
 
 <br>
 
-### 5. Handling Missing Values]()
+### 5.  [Handling Missing Values]()
 
 <br>
 
@@ -617,7 +617,7 @@ print(dados.isnull().sum())
 
 <br>
 
-### 6. Remove Rows with Missing Data (Alternative approach)]()
+### 6.  [Remove Rows with Missing Data (Alternative approach)]()
 
 <br>
 
@@ -630,7 +630,7 @@ print(f"Data shape after dropping missing values: {dados_clean.shape}")
 
 <br>
 
-### 7. Normalization: Max-Min Scaling]()
+### 7.  [Normalization: Max-Min Scaling]()
 
 <br>
 
@@ -655,7 +655,7 @@ dados_minmax.head()
 
 <br>
 
-### 8. Normalization: Z-Score Standardization]()
+### 8.  [Normalization: Z-Score Standardization]()
 
 <br>
 
@@ -670,7 +670,7 @@ dados_zscore.head()
 
 <br>
 
-### 9. Discretization of Continuous Attributes]()
+### 9.  [Discretization of Continuous Attributes]()
 
 <br>
 
@@ -688,7 +688,7 @@ print('Column radius_mean not found in dataset')
 
 <br>
 
-### 10. Handling Categorical Variables]()
+### 10.  [Handling Categorical Variables]()
 
 <br>
 
@@ -711,7 +711,7 @@ print(f"{col} unique values: {dados[col].cat.categories}")
 
 <br>
 
-### 11. Summary: Data Ready for Mining]()
+### 11.  [Summary: Data Ready for Mining]()
 
 <br>
 
