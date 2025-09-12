@@ -325,10 +325,10 @@ Poor quality input data produce poor quality outputs and insights. Cleaning data
 Maps value \(a\) to \(a'\) in new range \([new_{min}, new_{max}]\):
 
 
-$
+$$
 \Huge
 a' = \frac{a - min_a}{max_a - min_a} \times (new_{max} - new_{min}) + new_{min}
-$
+$$
 
 
 \[
