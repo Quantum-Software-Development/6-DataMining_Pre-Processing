@@ -514,7 +514,7 @@ Data pre-processing ensures the quality of mining outcomes by addressing missing
 <br><br>
 
 
-# Data Mining Pre-Processing - [Code  with Breast Cancer Dataset]()
+# [I]()- Data Mining Pre-Processing - [Code  with Breast Cancer Dataset]()
 
 This code notebook guides you through essential data pre-processing steps applied to datasets similar to those from the UCI Machine Learning Repository, such as Bank Marketing or Breast Cancer datasets. The steps cover cleaning, handling missing values, normalizing, discretizing, and preparing data for mining.
 
@@ -724,12 +724,12 @@ dados.head()
 ```
 
 
-<br><br><br>
+<br><br><br><br>
 
 
 
 
-# Data Mining Pre-Processing - [Code  with  Bank Marketing Dataset]()
+# [II]()- Data Mining Pre-Processing - [Code  with  Bank Marketing Dataset]()
 
 <br>
 
