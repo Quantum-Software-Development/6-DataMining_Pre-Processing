@@ -374,6 +374,8 @@ https://github.com/Quantum-Software-Development/6-DataMining_Pre-Processing/blob
 > 
 > ☞ [Get Discretization Coce](https://github.com/Quantum-Software-Development/6-DataMining_Pre-Processing/blob/c08d18552890d94b2b64858a4776ebf2d2da9736/Discretization_Code/Discretization_Method.ipynb) + [Dataset](https://github.com/Quantum-Software-Development/6-DataMining_Pre-Processing/blob/ed46c81806fc425a51b46e8b4859ce34e0b3ebd6/Discretization_Code/cancer.csv)
 >
+> 
+>
 
 <br><br>
 
