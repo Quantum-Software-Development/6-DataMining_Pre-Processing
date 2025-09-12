@@ -279,9 +279,9 @@ Poor quality input data produce poor quality outputs and insights. Cleaning data
 
 ### [Noise Reduction Techniques]()
 
-- **Binning:** Group values into intervals (*equal width* or *equal frequency* bins). Replace each value by bin mean or bin boundaries.  
-- **Clustering:** Group similar data points; replace with cluster centroid or medoid.  
-- **Approximation:** Fit data to smoothing functions like polynomials.
+- [**Binning:**]() Group values into intervals (*equal width* or *equal frequency* bins). Replace each value by bin mean or bin boundaries.  
+- [**Clustering:**]() Group similar data points; replace with cluster centroid or medoid.  
+- [**Approximation:**]() Fit data to smoothing functions like polynomials.
 
 <br>
 
