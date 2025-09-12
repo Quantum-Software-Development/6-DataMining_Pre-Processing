@@ -200,7 +200,7 @@ Poor quality input data produce poor quality outputs and insights. Cleaning data
 
 ## Datasets from University of California - Irvine (UCI)
 
-### Balloon Dataset
+### [Balloon Dataset](https://github.com/Quantum-Software-Development/6-DataMining_Pre-Processing/blob/270915823e93c7288c6d8c9f7c0f83143570f530/dataset_balao/balao.csv)
 
 - 20 samples, 5 attributes: color, size, action, age, inflated (True/False).  
 - Simple dataset to illustrate basic concepts.
