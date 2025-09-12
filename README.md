@@ -511,6 +511,78 @@ Data pre-processing ensures the quality of mining outcomes by addressing missing
 
 
 
+<br><br>
+
+## [Data Mining Pre-Processing Code - Notebook]()
+
+This code notebook guides you through essential data pre-processing steps applied to datasets similar to those from the UCI Machine Learning Repository, such as Bank Marketing or Breast Cancer datasets. The steps cover cleaning, handling missing values, normalizing, discretizing, and preparing data for mining.
+
+<br>
+
+### 1. Import Required Libraries
+
+<br>
+
+```python
+# Import libraries
+
+import pandas as pd
+import numpy as np
+from sklearn.preprocessing import minmax_scale, scale
+```
+
+<br>
+
+### 2. Load Dataset
+
+<br>
+
+```python
+# Load dataset from local or online source
+
+# Example: Breast Cancer Wisconsin dataset (adjust path or URL as needed)
+
+url = 'https://raw.githubusercontent.com/uiuc-cse/data-fa14/gh-pages/data/cancer.csv'  \# Example URL
+dados = pd.read_csv(url)
+
+# Show first rows to inspect data
+
+dados.head()
+
+```
+
+<br>
+
+## 3. Inspect Columns and Data Types
+
+<br>
+
+```python
+# List columns and data types
+
+print(dados.dtypes)
+
+# Check for 'Unnamed' columns (common from CSV exports)
+
+unnamed_cols = [col for col in dados.columns if "Unnamed" in col]
+print("Unnamed columns:", unnamed_cols)
+
+```
+
+<br>
+
+<br>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
