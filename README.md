@@ -383,7 +383,7 @@ a' = \frac{a - \bar{a}}{\sigma_a}
 <br><br>
 
 
-##[Python Code Examples]()
+## [Python Code Examples]()
 
 
 <br>
@@ -437,7 +437,35 @@ df = df.drop(columns=[col for col in df.columns if 'Unnamed' in col], errors='ig
 ```
 
 
+<br><br>
 
+
+## [ASCII Diagrams]()
+
+### Data Pre-Processing Flow
+
+<br>
+
+```
++-------------------+
+| Define Problem    |
++---------+---------+
+|
+v
++-------------------+
+| Select Data       |
++---------+---------+
+|
+v
++-------------------+     +--------------------------+
+| Choose Algorithm  +---->+ Apply Preprocessing Steps |
++---------+---------+     +--------------------------+
+|
+v
++-------------------+
+| Apply Data Mining |
++-------------------+
+```
 
 
 
