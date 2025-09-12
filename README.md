@@ -106,7 +106,8 @@ Explore datasets from the [**University of California Irvine (UCI) Machine Learn
 - [Types of Data](#types-of-data)
   - Structured, Semi-Structured, Unstructured
 - [Data Attributes and Their Types](#data-attributes-and-their-types)
-- [Datasets from University of California - Irvine (UCI)](#datasets-from-university-of-california---irvine-uci)
+  - ☞ [Datasets from University of California - Irvine (UCI)](https://archive.ics.uci.edu/datasets)
+  - [Datasets from University of Californiahttps://archive.ics.uci.edu/datasets
   - Balloon Dataset
   - Bank Marketing Dataset
   - Mammographic Mass Dataset
