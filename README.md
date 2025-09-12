@@ -107,10 +107,9 @@ Explore datasets from the [**University of California Irvine (UCI) Machine Learn
   - Structured, Semi-Structured, Unstructured
 - [Data Attributes and Their Types](#data-attributes-and-their-types)
   - ☞ [Datasets from University of California - Irvine (UCI)](https://archive.ics.uci.edu/datasets)
-  - [Datasets from University of Californiahttps://archive.ics.uci.edu/datasets
-  - Balloon Dataset
-  - Bank Marketing Dataset
-  - Mammographic Mass Dataset
+  - ☞ [Balloon Dataset](https://archive.ics.uci.edu/dataset/13/balloons)
+  -  ☞ [Bank Marketing Dataset](https://archive.ics.uci.edu/dataset/222/bank+marketing)
+  -  ☞ [Mammographic Mass Dataset]()
 - [Steps of Data Pre-Processing](#steps-of-data-pre-processing)
   - Cleaning
   - Integration
@@ -209,7 +208,7 @@ Poor quality input data produce poor quality outputs and insights. Cleaning data
 
 <br>
 
-### ☞ [Bank Marketing Dataset](https://github.com/Quantum-Software-Development/6-DataMining_Pre-Processing/tree/39ac7535c1ee88c8439480a82a9cf218ba318a21/dataset_Bank_Marketing)
+### ☞ [Bank Marketing Dataset]](https://archive.ics.uci.edu/dataset/222/bank+marketing)
 
 - 4521 samples, 17 attributes related to direct marketing campaigns.
 - Predict whether client will subscribe a term deposit (`application`).
