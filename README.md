@@ -198,7 +198,7 @@ Poor quality input data produce poor quality outputs and insights. Cleaning data
 <br><br>
 
 
-## Datasets from University of California - Irvine (UCI)
+## ☞ [Datasets from University of California - Irvine (UCI)](https://archive.ics.uci.edu/datasets)
 
 ### ☞ [Balloon Dataset](https://github.com/Quantum-Software-Development/6-DataMining_Pre-Processing/blob/270915823e93c7288c6d8c9f7c0f83143570f530/dataset_balao/balao.csv)
 
@@ -230,7 +230,22 @@ Example attributes:
 <br><br>
 
 
+###  ☞ [Mammographic Mass Dataset](https://archive.ics.uci.edu/dataset/161/mammographic+mass)
 
+<br>
+
+- 960 samples, 6 attributes related to breast masses.  
+- Used for predicting severity (benign/malign).
+
+<br><br>
+
+## Steps of Data Pre-Processing
+
+1. **Cleaning:** Handling missing, noisy, and inconsistent data.  
+2. **Integration:** Combine data from multiple sources.  
+3. **Reduction:** Reduce dimensionality or data volume.  
+4. **Transformation:** Normalize and format data.  
+5. **Discretization:** Convert continuous attributes into categorical intervals.
 
 
 
