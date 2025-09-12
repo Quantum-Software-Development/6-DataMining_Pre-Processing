@@ -670,7 +670,7 @@ dados_zscore.head()
 
 <br>
 
-## 9. Discretization of Continuous Attributes
+### 9. Discretization of Continuous Attributes
 
 <br>
 
@@ -684,6 +684,47 @@ else:
 print('Column radius_mean not found in dataset')
 
 ```
+
+
+<br>
+
+### 10. Handling Categorical Variables
+
+<br>
+
+```python
+# Example: Encoding categorical columns (if needed)
+
+categorical_cols = dados.select_dtypes(include=['object']).columns.tolist()
+print("Categorical columns:", categorical_cols)
+
+# Convert categorical columns to category dtype
+
+for col in categorical_cols:
+dados[col] = dados[col].astype('category')
+
+# Display categorical columns with their unique values
+
+for col in categorical_cols:
+print(f"{col} unique values: {dados[col].cat.categories}")
+```
+
+<br>
+
+### 11. Summary: Data Ready for Mining
+
+<br>
+
+```python
+# Final look at data shape and first few rows after pre-processing
+
+print("Data shape:", dados.shape)
+dados.head()
+```
+
+
+
+
 
 
 
