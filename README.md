@@ -887,9 +887,9 @@ df_zscore[num_cols] = df_zscore[num_cols].apply(scale)
 print(df_zscore[num_cols].head())
 ```
 
+<br>
 
-
-
+### - [**Cell 10:**]() One-hot encodes categorical variables preparing for PCA.
 
 <br>
 
@@ -900,6 +900,9 @@ print("Shape after encoding:", df_encoded.shape)
 ```
 
 
+<br>
+
+### - [**Cell 11:**]()  Applies PCA to reduce dimensions and plots the result.
 
 
 <br>
@@ -922,19 +925,10 @@ plt.show()
 ```
 
 
-
-
-
-
-
-
-
-
+<br><br>
 
 
 <!-- ========================== [Bibliographr ====================  -->
-
-<br><br>
 
 
 ## [Bibliography]()
