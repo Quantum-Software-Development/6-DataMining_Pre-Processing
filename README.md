@@ -880,6 +880,48 @@ print(df_minmax[num_cols].head())
 
 
 
+<br>
+
+```python
+# Cell 9 - Normalize numeric attributes using Z-score standardization
+df_zscore = df.copy()
+df_zscore[num_cols] = df_zscore[num_cols].apply(scale)
+print(df_zscore[num_cols].head())
+```
+
+
+
+
+
+<br>
+
+```python
+# Cell 10 - Encode categorical variables before PCA
+df_encoded = pd.get_dummies(df.drop(columns=['age_binned']))  # drop binned for now
+print("Shape after encoding:", df_encoded.shape)
+```
+
+
+
+
+<br>
+
+```python
+# Cell 11 - Apply PCA for dimensionality reduction (2 components) and visualize
+X = df_encoded.select_dtypes(include=[np.number])
+
+pca = PCA(n_components=2)
+X_pca = pca.fit_transform(X)
+
+print("Explained variance ratio of PCA components:", pca.explained_variance_ratio_)
+
+plt.figure(figsize=(8,5))
+plt.scatter(X_pca[:, 0], X_pca[:, 1], alpha=0.2)
+plt.title('PCA projection onto 2 components')
+plt.xlabel('Principal Component 1')
+plt.ylabel('Principal Component 2')
+plt.show()
+```
 
 
 
@@ -890,17 +932,6 @@ print(df_minmax[num_cols].head())
 
 
 
-
-
-
-
-
-
-<br><br><br><br>
-<br><br><br><br>
-<br><br><br><br>
-<br><br><br><br>
-<br><br><br><br>
 
 
 <!-- ========================== [Bibliographr ====================  -->
