@@ -365,7 +365,7 @@ a' = \frac{a - \bar{a}}{\sigma_a}
 
 ## [Discretization]()
 
-https://github.com/Quantum-Software-Development/6-DataMining_Pre-Processing/blob/7abc5ba87cef15c188d47c6a1eb66752bfbf9980/Discretization_Code/Discretization_Method.ipynb
+<br>
 
 - Converts numeric attributes into categorical bins.  
 - Methods include equal-width, equal-frequency, histogram-based, and entropy-based discretization.
