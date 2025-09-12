@@ -325,25 +325,40 @@ Poor quality input data produce poor quality outputs and insights. Cleaning data
 Maps value \(a\) to \(a'\) in new range \([new_{min}, new_{max}]\):
 
 
+<br>
+
 $$
 \Huge
 a' = \frac{a - min_a}{max_a - min_a} \times (new_{max} - new_{min}) + new_{min}
 $$
 
 
+<br><br>
+
+```latex
+a' = \frac{a - min_a}{max_a - min_a} \times (new_{max} - new_{min}) + new_{min}
+```
 
 
 <br>
 
+
 ### [Z-Score Normalization]()
 
 Centers attribute around zero and scales by standard deviation:
+
+<br>
 
 $$
 \Huge
 a' = \frac{a - \bar{a}}{\sigma_a}
 $$
 
+<br><br>
+
+```latex
+a' = \frac{a - \bar{a}}{\sigma_a}
+```
 
 
 <br><br>
@@ -355,7 +370,7 @@ $$
 - Methods include equal-width, equal-frequency, histogram-based, and entropy-based discretization.
 
 
-
+<br><br>
 
 
 
