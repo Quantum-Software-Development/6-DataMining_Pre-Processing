@@ -283,6 +283,40 @@ Poor quality input data produce poor quality outputs and insights. Cleaning data
 - **Clustering:** Group similar data points; replace with cluster centroid or medoid.  
 - **Approximation:** Fit data to smoothing functions like polynomials.
 
+<br>
+
+### [Handling Inconsistent Data]()
+
+- Detect out-of-domain or conflicting values.  
+- Correct with manual review or automated scripts verifying domain constraints.  
+- Use visualization, statistical summaries, and input from domain experts.
+
+
+<br><br>
+
+
+## [Data Integration Issues]()
+
+- [**Redundancy:**]() Duplicate or derivable data attributes or records.  
+- [**Duplicity:**]() Exact copies of objects or attributes.  
+- [**Conflicts:**]() Different units or representations of the same attribute.  
+- Resolve by normalization and unifying units or standards.
+
+<br><br>
+
+## Data Reduction Techniques
+
+- [**Attribute selection:**]() Remove irrelevant or redundant attributes.  
+- [**Attribute compression:**]() Use methods like Principal Component Analysis (PCA).  
+- [**Data volume reduction:**]() Use sampling, clustering, or parametric models.  
+- [**Discretization:**]() Convert continuous data to intervals.
+
+<br><br>
+
+
+
+
+
 
 
 
