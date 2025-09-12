@@ -304,7 +304,7 @@ Poor quality input data produce poor quality outputs and insights. Cleaning data
 
 <br><br>
 
-## Data Reduction Techniques
+## [Data Reduction Techniques]()
 
 - [**Attribute selection:**]() Remove irrelevant or redundant attributes.  
 - [**Attribute compression:**]() Use methods like Principal Component Analysis (PCA).  
@@ -314,6 +314,47 @@ Poor quality input data produce poor quality outputs and insights. Cleaning data
 <br><br>
 
 
+## [Data Standardization & Normalization]()
+
+[**Normalization**]() rescales data for algorithm compatibility:
+
+<br>
+
+### [Max-Min Normalization]()
+
+Maps value \(a\) to \(a'\) in new range \([new_{min}, new_{max}]\):
+
+
+$
+\Huge
+a' = \frac{a - min_a}{max_a - min_a} \times (new_{max} - new_{min}) + new_{min}
+$
+
+
+\[
+a' = \frac{a - min_a}{max_a - min_a} \times (new_{max} - new_{min}) + new_{min}
+\]
+
+
+<br>
+
+### [Z-Score Normalization]()
+
+Centers attribute around zero and scales by standard deviation:
+
+\[
+a' = \frac{a - \bar{a}}{\sigma_a}
+\]
+
+
+
+<br><br>
+
+
+## [Discretization]()
+
+- Converts numeric attributes into categorical bins.  
+- Methods include equal-width, equal-frequency, histogram-based, and entropy-based discretization.
 
 
 
