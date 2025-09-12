@@ -736,7 +736,7 @@ You can copy this script into Google Colab, run cell-by-cell, and get a complete
 <br>
 
 
-- [**Cell 1:**]() Imports all necessary libraries.
+### - [**Cell 1:**]() Imports all necessary libraries.
 
 ```python
 # Cell 1 - Import libraries
@@ -750,8 +750,9 @@ from sklearn.decomposition import PCA
 import matplotlib.pyplot as plt
 ```
 
+<br>
 
-
+### - [**Cell 2:**]() Downloads and extracts the Bank Marketing dataset from UCI and loads it into a DataFrame.
 
 
 <br>
@@ -769,7 +770,10 @@ df.head()
 ```
 
 
+### - [**Cell 3:**]() Detects and removes any extraneous unnamed columns.racts the Bank Marketing dataset from UCI and loads it into a DataFrame.
 
+
+<br>
 
 
 <br>
