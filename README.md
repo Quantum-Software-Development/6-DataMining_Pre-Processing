@@ -810,7 +810,9 @@ print(df.isnull().sum())
 ```
 
 
+<br>
 
+### - [**Cell 5:**]() Imputes missing categorical values with the mode of each column
 
 
 <br>
@@ -829,9 +831,9 @@ print(df.isnull().sum())
 ```
 
 
+<br>
 
-
-
+### - [**Cell 6:**]() Prints unique values of categorical columns to check for inconsistencies.
 
 <br>
 
@@ -844,8 +846,9 @@ for col in cat_cols:
 ```
 
 
+<br>
 
-
+### - [**Cell 7:**]() Demonstrates binning — converting continuous `age` into categorical bins.
 
 <br>
 
@@ -855,9 +858,9 @@ df['age_binned'] = pd.cut(df['age'], bins=5, labels=range(5))
 print(df[['age', 'age_binned']].head())
 ````
 
+<br>
 
-
-
+### - [**Cell 8:**]() Applies Min-Max normalization to numeric columns.
 
 <br>
 
@@ -871,9 +874,9 @@ df_minmax[num_cols] = df_minmax[num_cols].apply(minmax_scale)
 print(df_minmax[num_cols].head())
 ```
 
+<br>
 
-
-
+### - [**Cell 9:**]() Applies standard Z-score normalization to numeric columns.
 
 <br>
 
