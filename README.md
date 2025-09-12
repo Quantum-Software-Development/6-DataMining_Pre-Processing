@@ -131,29 +131,35 @@ Explore datasets from the [**University of California Irvine (UCI) Machine Learn
 <br><br>
 
 
-## Introduction
+## [Introduction]()
 
 Real-world data are almost always incomplete, inconsistent, and noisy. These problems must be addressed via pre-processing to ensure clean, reliable data, a prerequisite for successful data mining.
 
-The **pre-processing** step manipulates raw data into a form that enables better and more accurate knowledge extraction.
+The [**pre-processing**]() step manipulates raw data into a form that enables better and more accurate knowledge extraction.
 
 
 <br>
 
 
-## Common Problems in Raw Data
+## [Common Problems in Raw Data]()
 
-### Incompleteness
+<bvr>
+
+### [Incompleteness]()
 
 Missing attribute values, records, or features.
 
 Example: "?" in the credit card field or missing rows.
 
-### Inconsistency
+<br>
+
+### [Inconsistency]()
 
 Contradictory or conflicting entries within the data, e.g., units mixing kg with lbs.
 
-### Noise
+<br>
+
+### [Noise]()
 
 Random variations or errors that obscure real data trends.
 
@@ -161,7 +167,7 @@ Random variations or errors that obscure real data trends.
 <br>
 
 
-## Garbage In, Garbage Out (GIGO)
+## [Garbage In, Garbage Out (GIGO)]()
 
 Poor quality input data produce poor quality outputs and insights. Cleaning data beforehand is critical.
 
@@ -215,9 +221,11 @@ Poor quality input data produce poor quality outputs and insights. Cleaning data
 
 <br>
 
-Example attributes:
+[Example attributes]():
 
-| Attribute          | Type        | Description                     |
+<br>
+
+| [Attribute]()         | [Type]()     | [Description ]()             |
 |--------------------|-------------|---------------------------------|
 | age                | Numeric     | Client's age                   |
 | job                | Categorical | Job type                      |
@@ -242,14 +250,38 @@ Example attributes:
 
 ## Steps of Data Pre-Processing
 
-1. **Cleaning:** Handling missing, noisy, and inconsistent data.  
-2. **Integration:** Combine data from multiple sources.  
-3. **Reduction:** Reduce dimensionality or data volume.  
-4. **Transformation:** Normalize and format data.  
-5. **Discretization:** Convert continuous attributes into categorical intervals.
+1. [**Cleaning:**]() Handling missing, noisy, and inconsistent data.  
+2. [**Integration:**]() Combine data from multiple sources.  
+3. [**Reduction:**]() Reduce dimensionality or data volume.  
+4. [**Transformation:**]() Normalize and format data.  
+5. [**Discretization:**]() Convert continuous attributes into categorical intervals.
 
 
+<br><br>
 
+
+## [Data Cleaning Techniques]()
+
+
+<br>
+
+### [Handling Missing Values]()
+
+- [**Remove rows**]() with missing data (not recommended if much data lost).  
+- [**Manual imputation**]() with domain knowledge.  
+- [**Global constant imputation**]() (e.g. zero, -1) — caution advised.  
+- [**Hot-deck imputation:**]() Use value from a similar record.  
+- [**Last observation carried forward:**]() Use previous valid value.  
+- [**Mean/mode imputation:**]() Replace missing with mean (numeric) or mode (categorical).  
+- [**Predictive models:**]() Use other attributes to infer missing values.
+
+<br>
+
+### [Noise Reduction Techniques]()
+
+- **Binning:** Group values into intervals (*equal width* or *equal frequency* bins). Replace each value by bin mean or bin boundaries.  
+- **Clustering:** Group similar data points; replace with cluster centroid or medoid.  
+- **Approximation:** Fit data to smoothing functions like polynomials.
 
 
 
