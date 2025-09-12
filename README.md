@@ -514,7 +514,7 @@ Data pre-processing ensures the quality of mining outcomes by addressing missing
 <br><br>
 
 
-## Data Mining Pre-Processing [Code  with Breast Cancer Dataset]()
+# Data Mining Pre-Processing - [Code  with Breast Cancer Dataset]()
 
 This code notebook guides you through essential data pre-processing steps applied to datasets similar to those from the UCI Machine Learning Repository, such as Bank Marketing or Breast Cancer datasets. The steps cover cleaning, handling missing values, normalizing, discretizing, and preparing data for mining.
 
@@ -724,9 +724,12 @@ dados.head()
 ```
 
 
-<br><br>
+<br><br><br>
 
-## Data Mining Pre-Processing [Code  with  Bank Marketing Dataset]()
+
+
+
+# Data Mining Pre-Processing - [Code  with  Bank Marketing Dataset]()
 
 <br>
 
@@ -770,13 +773,13 @@ df.head()
 ```
 
 
+<br>
+
 ### - [**Cell 3:**]() Detects and removes any extraneous unnamed columns.racts the Bank Marketing dataset from UCI and loads it into a DataFrame.
 
 
 <br>
 
-
-<br>
 
 ```python
 # Cell 3 - Check for unnamed or unwanted columns and remove them
@@ -788,7 +791,9 @@ print("Columns after drop:", df.columns.tolist())
 ```
 
 
+<br>
 
+### - [**Cell 4:**]() Identifies `'unknown'` values as missing and replaces with `NaN`.
 
 
 <br>
