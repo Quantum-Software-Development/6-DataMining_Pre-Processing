@@ -752,7 +752,67 @@ You can copy this script into Google Colab, run cell-by-cell, and get a complete
 <br>
 
 
+```python
+# Cell 1 - Import libraries
+import pandas as pd
+import numpy as np
+import requests
+import zipfile
+import io
+from sklearn.preprocessing import minmax_scale, scale
+from sklearn.decomposition import PCA
+import matplotlib.pyplot as plt
+```
 
+
+
+
+
+<br>
+
+```python
+# Cell 2 - Download and load UCI Bank Marketing dataset
+url = 'https://archive.ics.uci.edu/ml/machine-learning-databases/00222/bank.zip'
+response = requests.get(url)
+with zipfile.ZipFile(io.BytesIO(response.content)) as z:
+    z.extractall('bank_data')
+
+df = pd.read_csv('bank_data/bank-full.csv', sep=';')
+print("Loaded dataset shape:", df.shape)
+df.head()
+```
+
+
+
+
+
+<br>
+
+```python
+# Cell 3 - Check for unnamed or unwanted columns and remove them
+unnamed_cols = [col for col in df.columns if "Unnamed" in col]
+print("Unnamed columns:", unnamed_cols)
+if unnamed_cols:
+    df.drop(columns=unnamed_cols, inplace=True)
+print("Columns after drop:", df.columns.tolist())
+```
+
+
+
+
+
+<br>
+
+```python
+# Cell 4 - Explore missing values and replace 'unknown' with NaN
+print("Count 'unknown' per column before replacement:")
+print((df == 'unknown').sum())
+
+df.replace('unknown', np.nan, inplace=True)  # Mark 'unknown' as NaN
+
+print("Count missing values after replacement:")
+print(df.isnull().sum())
+```
 
 
 
