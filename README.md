@@ -615,6 +615,53 @@ print(dados.isnull().sum())
 ```
 
 
+<br>
+
+### 6. Remove Rows with Missing Data (Alternative approach)
+
+<br>
+
+```python
+# Alternatively, remove rows with any missing value
+
+dados_clean = dados.dropna()
+print(f"Data shape after dropping missing values: {dados_clean.shape}")
+```
+
+<br>
+
+## 7. Normalization: Max-Min Scaling
+
+<br>
+
+```python
+# Select numeric columns for normalization, excluding identifiers or labels
+
+cols = list(dados.columns)
+
+# Example: remove columns if they are IDs or target variables
+
+if 'id' in cols: cols.remove('id')
+if 'diagnosis' in cols: cols.remove('diagnosis')
+
+# Apply Min-Max normalization to selected columns
+
+dados_minmax = dados.copy()
+dados_minmax[cols] = dados_minmax[cols].apply(minmax_scale)
+
+dados_minmax.head()
+
+```
+
+
+
+
+
+
+
+
+
+
 
 
 
