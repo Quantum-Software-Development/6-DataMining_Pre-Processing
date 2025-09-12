@@ -630,7 +630,7 @@ print(f"Data shape after dropping missing values: {dados_clean.shape}")
 
 <br>
 
-## 7. Normalization: Max-Min Scaling
+### 7. Normalization: Max-Min Scaling
 
 <br>
 
@@ -650,14 +650,40 @@ dados_minmax = dados.copy()
 dados_minmax[cols] = dados_minmax[cols].apply(minmax_scale)
 
 dados_minmax.head()
-
 ```
 
 
+<br>
 
+### 8. Normalization: Z-Score Standardization
 
+<br>
 
+```python
+# Apply Z-score standardization: mean=0, std=1
 
+dados_zscore = dados.copy()
+dados_zscore[cols] = dados_zscore[cols].apply(scale)
+
+dados_zscore.head()
+```
+
+<br>
+
+## 9. Discretization of Continuous Attributes
+
+<br>
+
+```python
+# Example: Discretizing 'radius_mean' into 10 equal-width bins with labels 0-9
+
+if 'radius_mean' in dados.columns:
+dados['radius_mean_binned'] = pd.cut(dados['radius_mean'], bins=10, labels=range(10))
+print(dados[['radius_mean', 'radius_mean_binned']].head())
+else:
+print('Column radius_mean not found in dataset')
+
+```
 
 
 
