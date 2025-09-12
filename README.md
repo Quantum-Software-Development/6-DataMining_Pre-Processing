@@ -818,6 +818,69 @@ print(df.isnull().sum())
 
 
 
+<br>
+
+```python
+# Cell 5 - Imputation of missing values (fill NaN for categorical columns with mode)
+cat_cols = df.select_dtypes(include='object').columns.tolist()
+print("Categorical columns:", cat_cols)
+
+for col in cat_cols:
+    mode_val = df[col].mode()[^0]
+    df[col].fillna(mode_val, inplace=True)
+
+print("Missing values after imputation:")
+print(df.isnull().sum())
+```
+
+
+
+
+
+
+<br>
+
+```python
+# Cell 6 - Check unique values for categorical attributes to spot inconsistencies
+for col in cat_cols:
+    print(f"Unique values in '{col}':")
+    print(df[col].unique())
+    print('------')
+```
+
+
+
+
+
+<br>
+
+```python
+# Cell 7 - Binning the 'age' variable into 5 equal-width intervals
+df['age_binned'] = pd.cut(df['age'], bins=5, labels=range(5))
+print(df[['age', 'age_binned']].head())
+````
+
+
+
+
+
+<br>
+
+```python
+# Cell 8 - Normalize numeric attributes using Max-Min scaling
+num_cols = df.select_dtypes(include=['int64', 'float64']).columns.tolist()
+print("Numeric columns:", num_cols)
+
+df_minmax = df.copy()
+df_minmax[num_cols] = df_minmax[num_cols].apply(minmax_scale)
+print(df_minmax[num_cols].head())
+```
+
+
+
+
+
+
 
 
 
