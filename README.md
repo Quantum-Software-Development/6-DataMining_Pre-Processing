@@ -173,11 +173,11 @@ Poor quality input data produce poor quality outputs and insights. Cleaning data
 
 <br><br>
 
-## Types of Data
+## Types of Data)]()
 
 <br>
 
-| Type            | Description                             | Examples                 |
+| [Type)]()       | [Description)]()                       | [Examples)]()            |
 |-----------------|---------------------------------------|--------------------------|
 | Structured      | Fixed fields, clear schema             | CSV, SQL tables          |
 | Semi-Structured | Partial structure with markers         | XML, JSON, Emails        |
@@ -188,11 +188,11 @@ Poor quality input data produce poor quality outputs and insights. Cleaning data
 <br><br>
 
 
-## Data Attributes and Their Types
+## [Data Attributes and Their Types)]()
 
 <br>
 
-| Attribute Type | Description                             | Example                     |
+| [Attribute Type)]() |[Description)]()                   | [Example)]()              |
 |----------------|---------------------------------------|-----------------------------|
 | Binary         | Two possible values                    | Yes/No, 0/1                  |
 | Nominal        | Categorical, no order                  | Marital Status               |
