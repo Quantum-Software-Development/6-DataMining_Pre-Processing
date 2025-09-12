@@ -372,7 +372,7 @@ https://github.com/Quantum-Software-Development/6-DataMining_Pre-Processing/blob
 
 > [!TIP]
 > 
-> ☞ [Get Discretization Coce]() + [Dataset]()
+> ☞ [Get Discretization Coce](https://github.com/Quantum-Software-Development/6-DataMining_Pre-Processing/blob/c08d18552890d94b2b64858a4776ebf2d2da9736/Discretization_Code/Discretization_Method.ipynb) + [Dataset]()
 >
 
 <br><br>
