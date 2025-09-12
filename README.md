@@ -739,7 +739,9 @@ You can copy this script into Google Colab, run cell-by-cell, and get a complete
 <br>
 
 
-### - [**Cell 1:**]() Imports all necessary libraries.
+###  [**Cell 1:**]() Imports all necessary libraries.
+
+<br>
 
 ```python
 # Cell 1 - Import libraries
@@ -755,7 +757,7 @@ import matplotlib.pyplot as plt
 
 <br>
 
-### - [**Cell 2:**]() Downloads and extracts the Bank Marketing dataset from UCI and loads it into a DataFrame.
+###  [**Cell 2:**]() Downloads and extracts the Bank Marketing dataset from UCI and loads it into a DataFrame.
 
 
 <br>
@@ -775,7 +777,7 @@ df.head()
 
 <br>
 
-### - [**Cell 3:**]() Detects and removes any extraneous unnamed columns.racts the Bank Marketing dataset from UCI and loads it into a DataFrame.
+###  [**Cell 3:**]() Detects and removes any extraneous unnamed columns.racts the Bank Marketing dataset from UCI and loads it into a DataFrame.
 
 
 <br>
@@ -793,7 +795,7 @@ print("Columns after drop:", df.columns.tolist())
 
 <br>
 
-### - [**Cell 4:**]() Identifies `'unknown'` values as missing and replaces with `NaN`.
+###  [**Cell 4:**]() Identifies `'unknown'` values as missing and replaces with `NaN`.
 
 
 <br>
@@ -812,7 +814,7 @@ print(df.isnull().sum())
 
 <br>
 
-### - [**Cell 5:**]() Imputes missing categorical values with the mode of each column
+###  [**Cell 5:**]() Imputes missing categorical values with the mode of each column
 
 
 <br>
@@ -833,7 +835,7 @@ print(df.isnull().sum())
 
 <br>
 
-### - [**Cell 6:**]() Prints unique values of categorical columns to check for inconsistencies.
+### [**Cell 6:**]() Prints unique values of categorical columns to check for inconsistencies.
 
 <br>
 
@@ -848,7 +850,7 @@ for col in cat_cols:
 
 <br>
 
-### - [**Cell 7:**]() Demonstrates binning — converting continuous `age` into categorical bins.
+###  [**Cell 7:**]() Demonstrates binning — converting continuous `age` into categorical bins.
 
 <br>
 
@@ -860,7 +862,7 @@ print(df[['age', 'age_binned']].head())
 
 <br>
 
-### - [**Cell 8:**]() Applies Min-Max normalization to numeric columns.
+###  [**Cell 8:**]() Applies Min-Max normalization to numeric columns.
 
 <br>
 
@@ -876,7 +878,7 @@ print(df_minmax[num_cols].head())
 
 <br>
 
-### - [**Cell 9:**]() Applies standard Z-score normalization to numeric columns.
+###  [**Cell 9:**]() Applies standard Z-score normalization to numeric columns.
 
 <br>
 
@@ -889,7 +891,7 @@ print(df_zscore[num_cols].head())
 
 <br>
 
-### - [**Cell 10:**]() One-hot encodes categorical variables preparing for PCA.
+###  [**Cell 10:**]() One-hot encodes categorical variables preparing for PCA.
 
 <br>
 
@@ -902,7 +904,7 @@ print("Shape after encoding:", df_encoded.shape)
 
 <br>
 
-### - [**Cell 11:**]()  Applies PCA to reduce dimensions and plots the result.
+###  [**Cell 11:**]()  Applies PCA to reduce dimensions and plots the result.
 
 
 <br>
