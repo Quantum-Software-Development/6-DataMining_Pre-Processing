@@ -333,14 +333,13 @@ a' = \frac{a - min_a}{max_a - min_a} \times (new_{max} - new_{min}) + new_{min}
 $$
 
 
-<br><br>
+<br>
 
 ```latex
 a' = \frac{a - min_a}{max_a - min_a} \times (new_{max} - new_{min}) + new_{min}
 ```
 
-
-<br>
+<br><br>
 
 
 ### [Z-Score Normalization]()
@@ -354,7 +353,7 @@ $$
 a' = \frac{a - \bar{a}}{\sigma_a}
 $$
 
-<br><br>
+<br>
 
 ```latex
 a' = \frac{a - \bar{a}}{\sigma_a}
