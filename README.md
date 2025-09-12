@@ -571,7 +571,48 @@ print("Unnamed columns:", unnamed_cols)
 
 <br>
 
+
+## 4. Drop Unnamed Columns
+
 <br>
+
+```python
+# Drop unnamed columns if any
+
+dados.drop(columns=unnamed_cols, inplace=True)
+print("Columns after dropping unnamed ones:", dados.columns)
+```
+
+<br>
+
+### 5. Handling Missing Values
+
+<br>
+
+```python
+# Check for missing values per column
+
+print(dados.isnull().sum())
+
+# Example: Impute missing values using mean for numerical columns
+
+num_cols = dados.select_dtypes(include=['float64', 'int64']).columns.tolist()
+
+for col in num_cols:
+mean_value = dados[col].mean()
+dados[col].fillna(mean_value, inplace=True)
+
+# For categorical columns, impute mode if needed
+
+cat_cols = dados.select_dtypes(include=['object']).columns.tolist()
+for col in cat_cols:
+mode_value = dados[col].mode()
+dados[col].fillna(mode_value, inplace=True)
+
+# Verify no missing values left
+
+print(dados.isnull().sum())
+```
 
 
 
