@@ -198,11 +198,36 @@ Poor quality input data produce poor quality outputs and insights. Cleaning data
 <br><br>
 
 
+## Datasets from University of California - Irvine (UCI)
+
+### Balloon Dataset
+
+- 20 samples, 5 attributes: color, size, action, age, inflated (True/False).  
+- Simple dataset to illustrate basic concepts.
+
+<br>
+
+### Bank Marketing Dataset
+
+- 4521 samples, 17 attributes related to direct marketing campaigns.
+- Predict whether client will subscribe a term deposit (`application`).
+
+<br>
+
+Example attributes:
+
+| Attribute          | Type        | Description                     |
+|--------------------|-------------|---------------------------------|
+| age                | Numeric     | Client's age                   |
+| job                | Categorical | Job type                      |
+| marital            | Categorical | Marital Status                |
+| education          | Categorical | Education Level               |
+| credit             | Binary      | Has credit line (yes/no)      |
+| balance            | Numeric     | Account balance               |
+| ...                | ...         | ...                          |
 
 
-
-
-
+<br><br>
 
 
 
