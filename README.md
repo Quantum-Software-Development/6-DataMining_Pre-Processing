@@ -371,7 +371,58 @@ a' = \frac{a - \bar{a}}{\sigma_a}
 
 <br><br>
 
+## Python Code Examples
 
+☞ [Acesses Completed Code]()
+
+<br>
+
+```python
+import pandas as pd
+from sklearn.preprocessing import minmax_scale, scale
+
+# Load Bank Marketing dataset from UCI (use your local copy or URL)
+
+# Example URL requires downloading and preprocessing: demonstration uses local CSV
+
+data_path = "bank-additional-full.csv"
+df = pd.read_csv(data_path, sep=';')
+
+# Drop unnamed columns (typical from CSV exports)
+
+df = df.loc[:, ~df.columns.str.contains('^Unnamed')]
+
+# Handling missing values example:
+
+# Replace '?' with NaN for easier manipulation
+
+df.replace('?', pd.NA, inplace=True)
+
+# Remove rows with any missing values (not recommended if too many deleted)
+
+df_clean = df.dropna()
+
+# Or imputing missing values with mode for categorical attribute, e.g. 'job'
+
+df['job'].fillna(df['job'].mode(), inplace=True)
+
+# Max-Min normalization for numeric columns
+
+num_cols = df.select_dtypes(include=['int64', 'float64']).columns.tolist()
+df[num_cols] = df[num_cols].apply(minmax_scale)
+
+# Z-score normalization example
+
+df[num_cols] = df[num_cols].apply(scale)
+
+# Discretization example - age into 5 bins
+
+df['age_binned'] = pd.cut(df['age'], bins=5, labels=False)
+
+# Drop columns example: if any 'Unnamed' columns exist
+
+df = df.drop(columns=[col for col in df.columns if 'Unnamed' in col], errors='ignore')
+```
 
 
 
