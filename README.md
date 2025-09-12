@@ -726,13 +726,30 @@ dados.head()
 
 <br><br>
 
-
 ## Data Mining Pre-Processing [Code  with  Bank Marketing Dataset]()
+
+<br>
+
+You can copy this script into Google Colab, run cell-by-cell, and get a complete data pre-processing example using a real UCI dataset.
 
 
 <br>
 
+### Explanation per cell:
 
+- **Cell 1:** Imports all necessary libraries.
+- **Cell 2:** Downloads and extracts the Bank Marketing dataset from UCI and loads it into a DataFrame.
+- **Cell 3:** Detects and removes any extraneous unnamed columns.
+- **Cell 4:** Identifies `'unknown'` values as missing and replaces with `NaN`.
+- **Cell 5:** Imputes missing categorical values with the mode of each column.
+- **Cell 6:** Prints unique values of categorical columns to check for inconsistencies.
+- **Cell 7:** Demonstrates binning — converting continuous `age` into categorical bins.
+- **Cell 8:** Applies Min-Max normalization to numeric columns.
+- **Cell 9:** Applies standard Z-score normalization to numeric columns.
+- **Cell 10:** One-hot encodes categorical variables preparing for PCA.
+- **Cell 11:** Applies PCA to reduce dimensions and plots the result.
+
+<br>
 
 
 
