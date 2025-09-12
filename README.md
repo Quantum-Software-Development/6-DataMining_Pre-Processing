@@ -442,7 +442,7 @@ df = df.drop(columns=[col for col in df.columns if 'Unnamed' in col], errors='ig
 
 ## [ASCII Diagrams]()
 
-### Data Pre-Processing Flow
+### [Data Pre-Processing Flow]()
 
 <br>
 
@@ -467,7 +467,41 @@ v
 +-------------------+
 ```
 
+<br><br>
 
+### [Binning (Equal Width)]()
+
+<br>
+
+```python
+Values: 2, 3, 7, 8, 11, 12, 16, 18, 20
+Bins: 3 (width = 6)
+
+Bin 1: 2 - 7  -> 2, 3, 7
+Bin 2: 8 - 13 -> 8, 11, 12
+Bin 3: 14 - 20->16, 18, 20
+```
+
+<br><br>
+
+### [Clustering Prototypes: Centroid vs Medoid]()
+
+<br>
+
+```python
+(a) Centroid                     (b) Medoid
+
+*                             *
+    
+*o*                           ooo
+oooo                          o o o
+
+Centroid = mean point (artificial)
+Medoid  = actual central object
+```
+
+
+<br><br>
 
 
 
