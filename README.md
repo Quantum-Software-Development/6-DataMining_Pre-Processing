@@ -331,9 +331,6 @@ a' = \frac{a - min_a}{max_a - min_a} \times (new_{max} - new_{min}) + new_{min}
 $$
 
 
-\[
-a' = \frac{a - min_a}{max_a - min_a} \times (new_{max} - new_{min}) + new_{min}
-\]
 
 
 <br>
@@ -342,9 +339,10 @@ a' = \frac{a - min_a}{max_a - min_a} \times (new_{max} - new_{min}) + new_{min}
 
 Centers attribute around zero and scales by standard deviation:
 
-\[
+$$
+\Huge
 a' = \frac{a - \bar{a}}{\sigma_a}
-\]
+$$
 
 
 
